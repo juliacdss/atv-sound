@@ -2,4 +2,80 @@
 
 html {
     list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* FORMATAÇÃO HEADER */
+
+header nav {
+    display: flex;
+}
+
+header nav ul {
+    color: #553C16;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0 80vw 0 80vw;
+}
+
+/* FORMATAÇÃO */
+
+section.primeira {
+    margin: 2vw 17vw 3vw 15vw;
+}
+
+section div.banner {
+    display: flex;
+}
+
+section div.samantha {
+    display: flex;
+}
+
+section.segunda div.dois {
+    display: flex;
+}
+
+section.segunda span {
+    color: grey;
+}
+
+section.segunda p.lorem {
+    color: #404852;
+}
+
+section.segunda p {
+    color: gray;
+}
+
+section.segunda img.img1 {
+    margin: 2vw 6vw 3vw 6vw;
+}
+
+section.segunda {
+    margin: 2vw 17vw 3vw 15vw;
+}
+
+/* FORMATAÇÃO FOOTER */
+
+footer {
+    text-align: center;
+    padding: 0 0 2vw 0;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+footer nav ul li {
+    margin: 0 5px 5px 5px;
+    font-size: 2rem;
+    list-style: none;
+}
+
+footer nav ul li span {
+    color: #21243D;
+    padding: 10px;
 }
